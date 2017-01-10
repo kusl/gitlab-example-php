@@ -38,4 +38,3 @@ test:php7:mysql:
   image: php:7
   script:
   - vendor/bin/phpunit --configuration phpunit_mysql.xml --coverage-text
-  allow_failure: true
